@@ -13,7 +13,7 @@ $(document).keydown(function () {
     }
 });
 
-$(document).on("click", "#level-title", function () {
+$(document).on("touchstart", function () {
     if (!started) {
         $("#level-title").text("Level " + level);
         nextSequence();
